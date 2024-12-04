@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/listStoryFragment">
+
+    <fragment
+        android:id="@+id/listStoryFragment"
+        android:name="com.example.dicodingstory.views.liststory.ListStoryFragment"
+        android:label="List Story">
+
+        <action
+            android:id="@+id/action_listStoryFragment_to_detailStoryFragment"
+            app:destination="@id/detailStoryFragment"
+            app:enterAnim="@anim/explode_in"
+            app:exitAnim="@anim/explode_out"
+            app:popEnterAnim="@anim/explode_in"
+            app:popExitAnim="@anim/explode_out">
+
+            <argument
+                android:name="story"
+                app:argType="com.example.dicodingstory.data.remote.Story" />
+        </action>
+
+        <action
+            android:id="@+id/action_listStoryFragment_to_addStoryFragment"
+            app:destination="@id/addStoryFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailStoryFragment"
+        android:name="com.example.dicodingstory.views.detailstory.DetailStoryFragment"
+        android:label="Detail Story">
+        <argument
+            android:name="story"
+            app:argType="com.example.dicodingstory.data.remote.Story" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addStoryFragment"
+        android:name="com.example.dicodingstory.views.addstory.AddStoryFragment"
+        android:label="Add Story" />
+</navigation>

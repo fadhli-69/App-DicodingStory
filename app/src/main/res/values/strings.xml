@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">DicodingStory</string>
+    <string name="signup">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="message_welcome_page">Ceritakan pengalaman menarikmu selama belajar di Dicoding sekarang!!</string>
+    <string name="title_welcome_page">Selamat datang di Dicoding Story!</string>
+    <string name="title_signup_page">Lengkapi data dirimu di bawah ini ya</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="message_login_page">Login dulu ya</string>
+    <string name="title_login_page">Sudah siap untuk berbagi cerita?</string>
+    <string name="name">Nama</string>
+    <string name="logout">Keluar</string>
+    <string name="hint_name">Masukkan Nama</string>
+    <string name="hint_email">Masukkan Email</string>
+    <string name="hint_password">Masukkan Password</string>
+    <string name="gambar_login_page">Gambar login page</string>
+
+    <string name="email_format_error">Invalid email format</string>
+    <string name="password_length_error">Password must be at least 8 characters</string>
+
+    <string name="invalid_input">Invalid email or password</string>
+    <string name="tambah_cerita">Tambah Cerita</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="deskripsi_cerita">Description</string>
+    <string name="upload">Uploud</string>
+    <string name="password_empty_error">Password cannot be empty</string>
+    <string name="password_complexity_error">Password must contain uppercase, lowercase, and digit</string>
+    <string name="email_empty_error">Email cannot be empty</string>
+    <string name="name_empty_error">Name cannot be empty</string>
+    <string name="name_length_error">Name must be at least 3 characters long</string>
+    <string name="dont_have_an_account_sign_up">Don\'t have an account? Sign Up</string>
+    <string name="unknown_error">Terjadi kesalahan yang tidak diketahui.</string>
+    <string name="error">Kesalahan</string>
+    <string name="ok">OK</string>
+    <string name="gambar_cerita">Gambar Cerita</string>
+</resources>
